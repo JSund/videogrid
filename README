@@ -1,0 +1,8 @@
+Video mixer that displays a grid of video streams and allows the user to select
+one of them for further processing, used at the ACM ICPC world finals to select
+which contestant webcam stream to send to video production of the live event.
+
+The code is currently very specialized for the ICPC Live project and requires a
+Redis server available on localhost with the hosts to fetch the video data from.
+If you are interested in using the software for other means and have any
+questions regarding how to use it, please contact the authors.
